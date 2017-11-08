@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Swagger at WarsawJS</title>
 
@@ -11,174 +12,411 @@
     <link rel="stylesheet" href="themes/warsawjs/styles/ribbon-theme.css">
     <link rel="stylesheet" href="themes/warsawjs/styles/warsawjs-theme.css">
 </head>
+
 <body class="list" onload="prettyPrint()">
-<header class="caption">
-    <h1>WarsawJS</h1>
-    <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
-</header>
+    <header class="caption">
+        <h1>WarsawJS</h1>
+        <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
+    </header>
 
-<style>
-    .front-page .content h2 {
-        font-size: 45px;
-    }
-</style>
-
-<!-- https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029 -->
-
-<!--INTRO PAGE-->
-<section class="slide front-page">
-    <div>
-        <div class="logo">
-            <img src="themes/warsawjs/pictures/logo.png">
-        </div>
-        <div class="content">
-            <h2>
-
-                Clean Architecture<br> in NodeJS
-            </h2>
-
-            <p>
-                Piotr Błaszczak <a href="http://twitter.com/MyFlowPl">@MyFlowPL</a><br>
-                <a style="font-size: 17px" href="https://myflowpl.github.io/talk-clean-architecture-in-nodejs/">myflowpl.github.io/talk-clean-architecture-in-nodejs</a>
-            </p>
-        </div>
-    </div>
-</section>
-
-<!--My Self-->
-<section class="slide">
-    <div>
-        <h2>Piotr Błaszczak</h2>
-        <h3>full-stack web developer since 2007</h3>
-        <Hr>
-        <div class="next">
-            <h2>Skills</h2>
-            <p>
-                JavaScript (TypeScript) <br>
-                NodeJs (former PHP dev) <br>
-                RDBMS/NoSQL/Graph Databases
-            </p>
-        </div>
-        <div class="next">
-            <h2>Work</h2>
-            <p>
-                <a href="https://slackmap.com" style="color:white" target="_blank">
-                    <img src="images/sm.svg" alt="SlackMap - Open Slackline Database" style="width: 45%;">
-                </a>
-                <a href="https://coi.gov.pl" style="color:white" target="_blank">
-                    <img src="images/coi.png" alt="Centralny Ośrodek Informatyki"
-                         style="width: 45%; position:relative;top:15px;"/>
-                </a>
-            </p>
-        </div>
-    </div>
     <style>
-        h5 {
-            font-size: 19px;
-            font-style: italic;
+        .front-page .content h2 {
+            font-size: 45px;
         }
     </style>
-</section>
 
-<!--AGENDA-->
-<section class="slide">
-    <div>
-        <h2>Agenda</h2>
-        <ol>
-            <li class="next">Clean Architecture theory</li>
-            <li class="next">JavaScript tools</li>
-        </ol>
-    </div>
-</section>
+    <!-- https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029 -->
 
-
-<!-- Swagger & API Contracts -->
-
-
-
-<!-- SlackMap -->
-<section class="slide">
-        
-            <img src="samples/sam.png" alt="SlackMap" style="width: 100%"/>
-</section>
-<section class="slide">
-        
-            <img src="samples/sm-app.png" alt="SlackMap" style="width: 100%"/>
-</section>
-<section class="slide">
-    <div>
-        <div style="text-align: center">
-                <h2>github.com/SlackMap</h2>
-            
+    <!--INTRO PAGE-->
+    <section class="slide front-page">
+        <div>
+            <div class="logo">
+                <img src="themes/warsawjs/pictures/logo.png">
             </div>
-            <a href="https://github.com/SlackMap" target="_blank">
-                <img src="samples/sm-repo.png" alt="SlackMap" style="width: 100%"/>
-            </a>
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <div >
-            
-            <h2>@slackmap/nodegen</h2>
-            <b>npm install -g @slackmap/nodegen</b>
-            <br><br>
-            <ul>
-                <li>nodegen generate controller User</li>
-                <li>nodegen test</li>
-                <li>nodegen build</li>
-                <li>nodegen deploy stage</li>
-            </ul>
+            <div class="content">
+                <h2>
+
+                    Clean Architecture
+                    <br> in NodeJS
+                </h2>
+
+                <p>
+                    Piotr Błaszczak
+                    <a href="http://twitter.com/MyFlowPl">@MyFlowPL</a>
+                    <br>
+                    <a style="font-size: 17px" href="https://myflowpl.github.io/talk-clean-architecture-in-nodejs/">myflowpl.github.io/talk-clean-architecture-in-nodejs</a>
+                </p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<!--THANK YOU-->
-<section class="slide ">
-    <div>
-        <h2>Thank You !!!</h2>
-        <h3>Piotr Błaszczak</h3>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-            href="mailto:pedro.blaszczak@gmail.com">pedro.blaszczak@gmail.com</a><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.github.com/MyFlowPL" target="_blank">github.com/MyFlowPL</a><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/MyFlowPl"
-                                                           target="_blank">@MyFlowPL</a><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/piotr.blaszczak"
-                                                           target="_blank">FB/piotr.blaszczak</a><br>
-        <h3>See you next month at WarsawJS</h3>
-
-        <div class="next" style="margin-top: 20px; text-align: center">
-            <img id="image" src="images/slack.jpg"/>
-            <img id="image2" src="samples/ts.png" />
+    <!--My Self-->
+    <section class="slide">
+        <div>
+            <h2>Piotr Błaszczak</h2>
+            <h3>full-stack web developer since 2007</h3>
+            <Hr>
+            <div class="next">
+                <h2>Skills</h2>
+                <p>
+                    JavaScript (TypeScript)
+                    <br> NodeJs (former PHP dev)
+                    <br> RDBMS/NoSQL/Graph Databases
+                </p>
+            </div>
+            <div class="next">
+                <h2>Work</h2>
+                <p>
+                    <a href="https://slackmap.com" style="color:white" target="_blank">
+                        <img src="images/sm.svg" alt="SlackMap - Open Slackline Database" style="width: 45%;">
+                    </a>
+                    <a href="https://coi.gov.pl" style="color:white" target="_blank">
+                        <img src="images/coi.png" alt="Centralny Ośrodek Informatyki" style="width: 45%; position:relative;top:15px;" />
+                    </a>
+                </p>
+            </div>
         </div>
-        <h2 class="next" style="text-align: center; margin-top: 20px;"><br><br>Questions & Comments</h2>
         <style>
-            #image {
-                width: 50%;
-                position: absolute;
-                top: 55px;
-                right: 18px;
-                z-index: 1;
-            }
-            #image2 {
-                width: 70px;
-                position: absolute;
-                top: 146px;
-                right: 369px;
-                z-index: 2;
+            h5 {
+                font-size: 19px;
+                font-style: italic;
             }
         </style>
-    </div>
-</section>
+    </section>
 
-<div class="progress">
-    <div></div>
-</div>
-<script src="vendor/prettify.js"></script>
-<script src="vendor/lang-css.js"></script>
-<script src="vendor/gamepad/gamepad.js"></script>
-<script src="vendor/shower/shower.js"></script>
-<script src="vendor/shower/shower.gamepad.js"></script>
+    <!--AGENDA-->
+    <section class="slide">
+        <div>
+            <h2>Agenda</h2>
+            <ol>
+                <li class="next">Clean Architecture theory</li>
+                <li class="next">JavaScript tools</li>
+            </ol>
+        </div>
+    </section>
+
+
+    <!-- THEORY -->
+    <!-- Robert C. Martin -->
+    <section class="slide">
+        <div>
+            <div style="text-align: center">
+                <h2>Robert C. Martin</h2>
+                <b>
+                    <a href="https://youtu.be/Nsjsiz2A9mg" target="_blank">youtu.be/Nsjsiz2A9mg</a>
+                </b>
+                <img src="samples/bob.jpg" alt="SlackMap" style="height: 80vh" />
+            </div>
+        </div>
+    </section>
+
+    <!--AGENDA-->
+    <section class="slide">
+        <div>
+            <h2>Clean Architecture</h2>
+            <ol>
+                <li class="next">Tools are not your architecture</li>
+                <li class="next">Deffer tools decisions</li>
+                <li class="next">Don't enslave yourself</li>
+                <li class="next">What your app dir structure say ?</li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2><Br><br>Good architect <Br><br>maximize the amount of decisions <br><br>he can deffer</h2>
+        </div>
+    </section>
+    
+    <!-- LAYERS -->
+    <section class="slide">
+        <div>
+            <img src="samples/ca.jpeg" alt="SlackMap" style="height: 90%" /><br>
+            source: <a href="https://8thlight.com/blog/uncle-bob/archive.html">Uncle Bob Archive</a>.
+        </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="slide">
+        <div style="text-align: center;">
+            <h2><Br><br>Tools <br><br>in<br><br> JavaScript</h2>
+        </div>
+    </section>
+
+    <!-- TypeScript -->
+    <section class="slide">
+            <div>
+                <div style="text-align: center">
+                    <Br><br><br>
+                    <h2>TypeScript</h2>
+                </div>
+            </div>
+        </section>    
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>Controller</h2>
+            </div>
+        </div>
+        <img src="samples/tsoa-ctrl.png" width="100%"  />
+    </section>    
+    
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>Model</h2>
+            </div>
+        </div>
+        <img src="samples/tsoa-model.png" width="90%"  />
+    </section>    
+    
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2></h2>
+            </div>
+        </div>
+        <img src="samples/working-get-method.png" width="90%"  />
+    </section>    
+    
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2></h2>
+            </div>
+        </div>
+        <img src="samples/tsoa.png" width="90%"  />
+    </section>    
+
+    <!-- SWAGGER -->
+
+    <section class="slide">
+            <div>
+                <div style="text-align: right">
+                    <h2></h2>
+                </div>
+            </div>
+            <img src="images/2-editor.png" width="90%"  />
+        </section>    
+
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2></h2>
+            </div>
+        </div>
+        <img src="samples/example-swag-doc.png" width="90%"  />
+    </section>    
+
+    <section class="slide">
+            <div>
+                <div style="text-align: right">
+                    <h2></h2>
+                </div>
+            </div>
+            <img src="images/2-swagger-ui.png" width="90%"  />
+        </section>    
+
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2></h2>
+            </div>
+        </div>
+        <img src="samples/bad-response.png" width="90%"  />
+    </section>
+
+    <!-- CODEGEN -->
+
+    <section class="slide">
+            <div>
+                <div style="text-align: right">
+                    <h2>swagger-codegen-cli</h2>
+                </div>
+            </div>
+            <img src="images/2-gen1.png" height="90%"  />
+        </section>
+
+    <section class="slide">
+            <div>
+                <div style="text-align: right">
+                    <!-- <h2>swagger-codegen-cli</h2> -->
+                </div>
+            </div>
+            <img src="images/5-auto-complete.png" width="90%"  />
+        </section>
+
+    <section class="slide">
+            <div>
+                <div style="text-align: right">
+                    <!-- <h2>swagger-codegen-cli</h2> -->
+                </div>
+            </div>
+            <img src="images/5-template-autocomplete.png" width="90%"  />
+        </section>
+    
+    <!-- InversifyJS -->
+    <section class="slide">
+            <div>
+                <div style="text-align: center">
+                    <Br><br><br>
+                    <h2>Dependency Injection</h2>
+                </div>
+            </div>
+        </section>  
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>InversifyJS</h2>
+            </div>
+        </div>
+        <img src="samples/inversify.png" width="100%"  />
+    </section>  
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>Container</h2>
+            </div>
+        </div>
+        <img src="samples/ioc-container.png" width="80%"  />
+    </section>  
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>Testing</h2>
+            </div>
+        </div>
+        <img src="samples/ioc-test.png" width="100%"  />
+    </section>  
+    <section class="slide">
+        <div>
+            <div style="text-align: right">
+                <h2>Testing</h2>
+            </div>
+        </div>
+        <img src="samples/ioc-test2.png" width="100%"  />
+    </section>  
+    <section class="slide">
+        <div>
+            <div style="text-align: center">
+                <h2>Environements</h2>
+            </div>
+                <b>Universal code</b>
+                <ul>
+                    <li>REST / SocketIO</li>
+                    <li>controllers</li>
+                    <li>injects intefaces</li>
+                </ul>
+                <b>Development</b>
+                <ul>
+                    <li>injects mocks</li>
+                </ul>
+
+                <b>Production</b>
+                <ul>
+                    <li>injects real implementations</li>
+                </ul>
+        </div>
+        <!-- <img src="samples/ioc-mock.png" width="100%"  /> -->
+    </section>  
+
+    <!-- LAYERS -->
+    <section class="slide">
+            <div>
+                <img src="samples/ca.jpeg" alt="SlackMap" style="height: 90%" /><br>
+                source: <a href="https://8thlight.com/blog/uncle-bob/archive.html">Uncle Bob Archive</a>.
+            </div>
+        </section>
+
+    <!-- SlackMap -->
+    <section class="slide">
+        <img src="samples/sam.png" alt="SlackMap" style="width: 100%" />
+    </section>
+    <section class="slide">
+        <img src="samples/sm-app.png" alt="SlackMap" style="width: 100%" />
+    </section>
+    <section class="slide">
+        <div>
+            <div style="text-align: center">
+                <h2>github.com/SlackMap</h2>
+
+            </div>
+            <a href="https://github.com/SlackMap" target="_blank">
+                <img src="samples/sm-repo.png" alt="SlackMap" style="width: 100%" />
+            </a>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div>
+            <div>
+
+                <h2>@slackmap/nodegen</h2>
+                <b>npm install -g @slackmap/nodegen</b>
+                <br>
+                <br>
+                <ul>
+                    <li>nodegen generate controller User</li>
+                    <li>nodegen test</li>
+                    <li>nodegen build</li>
+                    <li>nodegen deploy stage</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!--THANK YOU-->
+    <section class="slide ">
+        <div>
+            <h2>Thank You !!!</h2>
+            <h3>Piotr Błaszczak</h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:pedro.blaszczak@gmail.com">pedro.blaszczak@gmail.com</a>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.github.com/MyFlowPL" target="_blank">github.com/MyFlowPL</a>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://twitter.com/MyFlowPl" target="_blank">@MyFlowPL</a>
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/piotr.blaszczak" target="_blank">FB/piotr.blaszczak</a>
+            <br>
+            <h3>See you next month at WarsawJS</h3>
+
+            <div class="next" style="margin-top: 20px; text-align: center">
+                <img id="image" src="images/slack.jpg" />
+                <img id="image2" src="samples/ts.png" />
+            </div>
+            <h2 class="next" style="text-align: center; margin-top: 20px;">
+                <br>
+                <br>Questions & Comments</h2>
+            <style>
+                #image {
+                    width: 50%;
+                    position: absolute;
+                    top: 55px;
+                    right: 18px;
+                    z-index: 1;
+                }
+
+                #image2 {
+                    width: 70px;
+                    position: absolute;
+                    top: 146px;
+                    right: 369px;
+                    z-index: 2;
+                }
+            </style>
+        </div>
+    </section>
+
+    <div class="progress">
+        <div></div>
+    </div>
+    <script src="vendor/prettify.js"></script>
+    <script src="vendor/lang-css.js"></script>
+    <script src="vendor/gamepad/gamepad.js"></script>
+    <script src="vendor/shower/shower.js"></script>
+    <script src="vendor/shower/shower.gamepad.js"></script>
 </body>
+
 </html>
