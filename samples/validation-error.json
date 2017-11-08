@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "data.facebook_app_id": {
+            "message": "max 100",
+            "value": 666
+        },
+        "facebook_scope.$0": {
+            "message": "invalid string value",
+            "value": 444
+        }
+    },
+    "message": "",
+    "status": 400,
+    "name": "ValidateError"
+}

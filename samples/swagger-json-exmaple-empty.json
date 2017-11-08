@@ -1,0 +1,22 @@
+{
+	"basePath": "/api/v2",
+	"consumes": [
+		"application/json"
+	],
+	"definitions": {},
+	"info": {
+		"title": "@slackmap/api",
+		"version": "0.0.1",
+		"description": "SlackMap API Server",
+		"license": {
+			"name": "GPL-3.0"
+		}
+	},
+	"paths": {},
+	"produces": [
+		"application/json"
+	],
+	"swagger": "2.0",
+	"securityDefinitions": {},
+	"host": "localhost:3000"
+}
