@@ -34,13 +34,12 @@
         <div class="content">
             <h2>
 
-                Swagger <br>
-                <span>the front-end perspective</span>
+                Clean Architecture<br> in NodeJS
             </h2>
 
             <p>
                 Piotr Błaszczak <a href="http://twitter.com/MyFlowPl">@MyFlowPL</a><br>
-                <a href="http://myflowpl.github.io/talk-swagger">myflowpl.github.io/talk-swagger</a>
+                <a style="font-size: 17px" href="https://myflowpl.github.io/talk-clean-architecture-in-nodejs/">myflowpl.github.io/talk-clean-architecture-in-nodejs</a>
             </p>
         </div>
     </div>
@@ -50,27 +49,25 @@
 <section class="slide">
     <div>
         <h2>Piotr Błaszczak</h2>
-        <h3>full-stack web developer</h3>
-        <h5>9 years of experience in web development</h5>
+        <h3>full-stack web developer since 2007</h3>
         <Hr>
-        <br>
         <div class="next">
             <h2>Skills</h2>
             <p>
-                JavaScript &nbsp; &nbsp;&&nbsp;&nbsp;
-                NodeJs/PHP&nbsp;&nbsp; & &nbsp;&nbsp;
+                JavaScript (TypeScript) <br>
+                NodeJs (former PHP dev) <br>
                 RDBMS/NoSQL/Graph Databases
             </p>
         </div>
         <div class="next">
             <h2>Work</h2>
             <p>
+                <a href="https://slackmap.com" style="color:white" target="_blank">
+                    <img src="images/sm.svg" alt="SlackMap - Open Slackline Database" style="width: 45%;">
+                </a>
                 <a href="https://coi.gov.pl" style="color:white" target="_blank">
                     <img src="images/coi.png" alt="Centralny Ośrodek Informatyki"
                          style="width: 45%; position:relative;top:15px;"/>
-                </a>
-                <a href="https://slackmap.com" style="color:white" target="_blank">
-                    <img src="images/sm.svg" alt="SlackMap - Open Slackline Database" style="width: 45%;">
                 </a>
             </p>
         </div>
@@ -88,256 +85,50 @@
     <div>
         <h2>Agenda</h2>
         <ol>
-            <li>Swagger & API contracts</li>
-            <li>Contract-first development</li>
-            <li>Tools</li>
-            <li>Swagger + TypeScript + Angular2 example</li>
+            <li class="next">Clean Architecture theory</li>
+            <li class="next">JavaScript tools</li>
         </ol>
     </div>
 </section>
 
 
 <!-- Swagger & API Contracts -->
-<section class="slide">
-    <div>
-        <h2>API Contracts</h2>
-        <ul>
-            <li>Simple representation of your RESTful API</li>
-            <li class="next">It's good to know the rules</li>
-            <li class="next">Single source of truth</li>
-            <li class="next">Language agnostic</li>
-            <li class="next">Tons of tools</li>
-        </ul>
 
-    </div>
+
+
+<!-- SlackMap -->
+<section class="slide">
+        
+            <img src="samples/sam.png" alt="SlackMap" style="width: 100%"/>
 </section>
 <section class="slide">
-    <div>
-        <h2>Swagger</h2>
-        <ul>
-            <li>Swagger Syntax - Json or Yaml</li>
-            <li>JSON Schema draft v4</li>
-        </ul>
-
-    </div>
+        
+            <img src="samples/sm-app.png" alt="SlackMap" style="width: 100%"/>
 </section>
-<section class="slide">
-    <div>
-        <h2>Endpoint</h2>
-        <img src="images/1-endpoint-example.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>Parameters</h2>
-        <img src="images/1-parameters.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>Responses</h2>
-        <img src="images/1-res.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>Model Definitions</h2>
-        <img src="images/1-model.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>More</h2>
-        <ul>
-            <li>Documentation</li>
-            <li>Plugins</li>
-            <li>Community Tools</li>
-        </ul>
-
-    </div>
-</section>
-
-<!-- Contract first workflow -->
-<section class="slide">
-    <div>
-        <h2>Contract-first Development</h2>
-        <ul>
-            <li class="next"><b>design + collaborate</b> (swagger-editor, generators)</li>
-            <li class="next"><b>build</b> (codegen, swagger-node, validators, etc.)</li>
-            <li class="next"><b>test</b> (CI, stubs, fake data)</li>
-            <li class="next"><b>documentation</b> (generate from contract)</li>
-            <li class="next"><b>update & refactor</b> (typescript, automated tests)</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Tools -->
-<section class="slide">
-    <div>
-        <h2>Tools</h2>
-        <ul>
-            <li class="next">swagger-editor</li>
-            <li class="next">swagger-js</li>
-            <li class="next">swagger-ui</li>
-            <li class="next">swagger-node</li>
-            <li class="next">swagger-parser</li>
-            <li class="next">swagger-codegen</li>
-        </ul>
-    </div>
-</section>
-
-<section class="slide">
-    <div>
-        <h2>Editor</h2>
-        <img src="images/2-editor.png" alt="" width="100%">
-
-    </div>
-</section>
-
-<section class="slide">
-    <div>
-        <h2>UI</h2>
-        <img src="images/2-ui.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>UI</h2>
-        <img src="images/2-swagger-ui.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>SwaggerJS</h2>
-        <img src="images/2-js.png" alt="" width="100%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>Swagger-node</h2>
-        <img src="images/2-node.png" alt="" height="90%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h2>Swagger-codegen</h2>
-        <img src="images/2-gen1.png" alt="" height="85%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h3>Codegen Stubs</h3>
-        <img src="images/2-gen2.png" alt="" height="80%">
-
-    </div>
-</section>
-<section class="slide">
-    <div>
-        <h3>Codegen Documentation</h3>
-        <img src="images/2-gen3.png" alt="" width="50%">
-
-    </div>
-</section>
-
-<!-- Example -->
-<section class="slide">
-    <div>
-        <h2>Swagger + TypeScript + Angular2</h2>
-        <h3>Lets generate some code</h3>
-        <xmp class="prettyprint linenums ">java -jar
-    swagger-codegen-cli-2.2.2-SNAPSHOT.jar generate
-    -i swagger-petstore.json
-    -o src/app/api
-    -l typescript-angular2
-</xmp>
-
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h2>Generated Code</h2>
-        <img src="images/5-api-files.png" alt="" height="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h2>Endpoints requests</h2>
-        <h3>api/api/PetsApi.ts</h3>
-        <img src="images/5-api-file2.png" alt="" width="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h2>Model definition</h2>
-        <h3>api/model/Pet.ts</h3>
-        <img src="images/5-pet-file.png" alt="" width="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h3>Make api call</h3>
-        <img src="images/5-comp-ts.png" alt="" height="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h3>TS hints</h3>
-        <img src="images/5-auto-complete.png" alt="" width="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h3>HTML hints</h3>
-        <img src="images/5-template-autocomplete.png" alt="" width="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h2>Refactoring</h2>
-        <img src="images/5-error-tpl.png" alt="" width="100%">
-    </div>
-</section>
-
-<section class="slide coverf">
-    <div>
-        <h2>CI Automation</h2>
-        <ul>
-            <li>jenkins & gitflow</li>
-            <li>most api changes fails on tests</li>
-            <li>front-end test with no backend</li>
-        </ul>
-    </div>
-</section>
-
-
-<!-- Example -->
 <section class="slide">
     <div>
         <div style="text-align: center">
-            <h2>Front-end Job</h2>
-            <h3>Center for Information Technology</h3>
-
-            <a href="https://www.coi.gov.pl/kariera.html" target="_blank" style="color: white">
-                <img src="images/coi.png" alt="Centralny Ośrodek Informatyki"
-                     style="width: 45%; position:relative;top:15px;"/>
-            </a><br>
-            <a href="https://www.coi.gov.pl/kariera.html" target="_blank">COI Careers</a>
+                <h2>github.com/SlackMap</h2>
+            
+            </div>
+            <a href="https://github.com/SlackMap" target="_blank">
+                <img src="samples/sm-repo.png" alt="SlackMap" style="width: 100%"/>
+            </a>
+    </div>
+</section>
+<section class="slide">
+    <div>
+        <div >
+            
+            <h2>@slackmap/nodegen</h2>
+            <b>npm install -g @slackmap/nodegen</b>
+            <br><br>
+            <ul>
+                <li>nodegen generate controller User</li>
+                <li>nodegen test</li>
+                <li>nodegen build</li>
+                <li>nodegen deploy stage</li>
+            </ul>
         </div>
     </div>
 </section>
@@ -359,14 +150,9 @@
 
         <div class="next" style="margin-top: 20px; text-align: center">
             <img id="image" src="images/slack.jpg"/>
-            <a href="https://github.com/SlackMap" style="color:white">
-                <img src="images/sm.svg" alt="SlackMap - Open Slackline Database" style="width: 45%;">
-            </a>
-            <a href="https://github.com/SlackMap" style="position:relative; top:-35px; margin-left: 30px;">
-                SlackMap Github Repository
-            </a>
+            <img id="image2" src="samples/ts.png" />
         </div>
-        <h2 class="next" style="text-align: center; margin-top: 20px;">Questions & Comments</h2>
+        <h2 class="next" style="text-align: center; margin-top: 20px;"><br><br>Questions & Comments</h2>
         <style>
             #image {
                 width: 50%;
@@ -374,6 +160,13 @@
                 top: 55px;
                 right: 18px;
                 z-index: 1;
+            }
+            #image2 {
+                width: 70px;
+                position: absolute;
+                top: 146px;
+                right: 369px;
+                z-index: 2;
             }
         </style>
     </div>

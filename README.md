@@ -1,4 +1,7 @@
 # Clean Architecture in NodeJS [EN]
+This are slides to the talk give on [WarsawJS #39 meetup](https://www.meetup.com/WarsawJS/events/244354442/)
+
+[See the slides online](https://myflowpl.github.io/talk-clean-architecture-in-nodejs/)
 
 In this talk, I’ll show you my implementation of Clean Architecture in NodeJS. 
 
